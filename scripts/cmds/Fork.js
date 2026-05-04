@@ -2,7 +2,7 @@ module.exports = {
   config: {
     name: "fork",
     version: "1.4",
-    author: "〲MAMUNツ࿐ T.T　o.O",
+    author: "Tamim Bbz",
     countDown: 2,
     role: 0,
     shortDescription: "Show official fork link with owner info",
@@ -14,7 +14,7 @@ module.exports = {
 
   langs: {
     en: {
-      current: "╭───────『 🌐 』───────╮\n\n    OFFICIAL GITHUB FORK \n\n  🔗 Link: %1\n  👤 Owner: 𝐌𝐀𝐌𝐔𝐍\n\n╰───────『 ✨ 』───────╯"
+      current: "╭───────『 🌐 』───────╮\n\n    𝐎𝐟𝐟𝐢𝐜𝐢𝐚𝐥 𝐠𝐢𝐭𝐡𝐮𝐛 𝐚𝐜𝐜𝐪𝐮𝐧𝐭 \n\n  🔗 𝐋𝐢𝐧𝐤: %1\n  👤 𝐎𝐰𝐧𝐞𝐫: 𝐓𝐚𝐦𝐢𝐦 𝐁𝐛𝐳\n\n╰───────『 ✨ 』───────╯"
     }
   },
 
@@ -25,7 +25,7 @@ module.exports = {
 
   onChat: async function ({ message, getLang, event }) {
     if (event.body && event.body.toLowerCase() === "fork") {
-      const link = "https://github.com/MAMUN-GOAT-BOT/V2-.git";
+      const link = "";
       return message.reply(getLang("current", link));
     }
   }
