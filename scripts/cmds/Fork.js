@@ -19,7 +19,7 @@ module.exports = {
   },
 
   onStart: async function ({ message, getLang }) {
-    const link = "https://github.com/MAMUN-GOAT-BOT/V2-.git";
+    const link = "https://github.com/goatbotv420-create/YOUR-CHOICE.git";
     return message.reply(getLang("current", link));
   },
 
